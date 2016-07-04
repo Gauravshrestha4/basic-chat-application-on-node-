@@ -1,0 +1,32 @@
+body ,
+textarea,
+input{
+	font: 13px verdana;
+}
+.chat{
+	max-width: 300px;
+}
+.chat-messages,
+.chat-name,
+textarea{
+	border: 1px solid #bbb;
+}
+.chat-messages{
+	width: 100%;
+	height: 300px;
+	padding: 10px;
+	overflow-y: scroll;
+}
+.chat-name{
+	width: 100%;
+	padding: 10px;
+	margin: 0px;
+	border-bottom: 0px;
+}
+.chat textarea{
+	width: 100%;
+	padding: 10px;
+	margin: 0px;
+	border-top: 0px;
+	max-width: 100%;
+}
